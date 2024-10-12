@@ -6,6 +6,45 @@
     android:layout_height="match_parent"
     android:background="#18CEAB">
 
+    <EditText
+        android:id="@+id/editTextmarcaprenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <EditText
+        android:id="@+id/editTextmaterialprenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <EditText
+        android:id="@+id/editTextColorprenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="374dp" />
+
     <TextView
         android:id="@+id/texttipoprenda"
         android:layout_width="wrap_content"
@@ -97,5 +136,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Buttontomafotoprenda"
         app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTexttipoprenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="291dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
