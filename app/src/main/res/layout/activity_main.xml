@@ -10,8 +10,9 @@
 
     <TextView
         android:id="@+id/text_view_inicio"
-        android:layout_width="239dp"
-        android:layout_height="177dp"
+        android:layout_width="252dp"
+        android:layout_height="171dp"
+        android:autoSizeTextType="uniform"
         android:fontFamily="sans-serif-black"
         android:text="Con Outfit Planner puedes diseñar tu outfit perfecto, y lo mejor! para cualquier ocasión. "
         android:textAlignment="center"
@@ -19,21 +20,23 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Iconoinicio"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
 
     <ImageView
         android:id="@+id/Iconoinicio"
         android:layout_width="168dp"
         android:layout_height="302dp"
-        android:layout_marginTop="104dp"
         android:background="#FFFFFF"
         android:backgroundTint="#38FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
         app:srcCompat="@drawable/logo_of" />
 
     <Button
@@ -48,8 +51,9 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_inicio"
-        app:layout_constraintVertical_bias="0.33" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

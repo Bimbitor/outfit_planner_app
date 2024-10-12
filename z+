@@ -1,0 +1,56 @@
+[33mcommit 665ef5cac09f3b7c6c69e2f4a0a77b1eed8e5464[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Felipe <ipelk18@gmail.com>
+Date:   Sun Oct 6 11:37:02 2024 -0500
+
+    se arreglan los id de los iconos del home
+
+[33mcommit 9f0681f5527143f0fb7bf1176d93f840d71aa439[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0ea71fd bfda042
+Author: SebastianCarron <ycarron@ucompensar.edu.co>
+Date:   Sun Oct 6 11:01:20 2024 -0500
+
+    Merge branch 'main' of https://github.com/Bimbitor/outfit_planner_app
+
+[33mcommit 0ea71fd626a74e716c5305399d4a2acefee7fea8[m
+Author: SebastianCarron <ycarron@ucompensar.edu.co>
+Date:   Sun Oct 6 11:00:44 2024 -0500
+
+    inicio, creacion prendas, tus prendas, selecciona tus prendas
+
+[33mcommit bfda042c2e6e5cb3a1605db71eb8116e27ea24e9[m
+Merge: c281e07 6090d90
+Author: santiago189 <beltransanti430@gmail.com>
+Date:   Sun Oct 6 10:43:48 2024 -0500
+
+    se ajustan conflictos de merge se dejan los cambios de felipe
+
+[33mcommit c281e0774e1ea62d484ac3808d1b629530614fb5[m
+Author: santiago189 <beltransanti430@gmail.com>
+Date:   Sun Oct 6 10:35:34 2024 -0500
+
+    vistas clima_calendario_tusprendas
+
+[33mcommit 6090d90d01f6f33a502a830226d88600ca197146[m
+Author: Felipe <ipelk18@gmail.com>
+Date:   Sun Oct 6 10:11:06 2024 -0500
+
+    se agregan vistas de home e IA
+
+[33mcommit 4ccd851a964f876bca626c299c12ba33cbff02d1[m
+Merge: e8af05c 13db943
+Author: Bimbitor <javijohanro30@gmail.com>
+Date:   Sat Oct 5 17:03:27 2024 -0500
+
+    Merge branch 'main' of github.com:Bimbitor/outfit_planner_app
+
+[33mcommit e8af05c7a0fb939aca48d714f862a69f6da0c70b[m
+Author: Bimbitor <javijohanro30@gmail.com>
+Date:   Sat Oct 5 17:00:56 2024 -0500
+
+    Creación Apk Vacío
+
+[33mcommit 13db943b4abbcc063d52b010ad0fb3296741d54c[m
+Author: Javi Giraldo <javijohanro30@gmail.com>
+Date:   Sat Oct 5 16:38:16 2024 -0500
+
+    Initial commit
