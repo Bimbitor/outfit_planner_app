@@ -25,16 +25,16 @@
 
     <ImageView
         android:id="@+id/Iconoinicio"
-        android:layout_width="168dp"
-        android:layout_height="302dp"
-        android:layout_marginTop="104dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#38FFFFFF"
+        android:layout_width="274dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="48dp"
+        android:background="#18CEAB"
+        android:backgroundTint="#18CEAB"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_of" />
+        app:srcCompat="@drawable/logo_icono_inicio" />
 
     <Button
         android:id="@+id/buttoninicio"

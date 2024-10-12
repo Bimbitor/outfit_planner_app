@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.calendario_usuario_viewgit push);
+        setContentView(R.layout.crear_outfit_usuario_view);
 
     }
 }
