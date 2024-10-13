@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#18CEAB">
+    android:background="#18CEAB"
+    android:fitsSystemWindows="false">
 
     <TextView
         android:id="@+id/text_home_title"
@@ -26,7 +27,7 @@
         app:layout_optimizationLevel="graph_wrap" />
 
     <ImageButton
-        android:id="@+id/image_home_weather_button"
+        android:id="@+id/image_home_calendar_button"
         android:layout_width="181dp"
         android:layout_height="159dp"
         android:backgroundTint="#00FFFFFF"
@@ -69,7 +70,7 @@
         app:layout_constraintVertical_bias="0.287" />
 
     <TextView
-        android:id="@+id/text_home_weather_subtitle"
+        android:id="@+id/text_home_calendar_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
