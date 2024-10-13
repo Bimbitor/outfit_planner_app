@@ -27,6 +27,8 @@
         <activity android:name=".OutfitFormActivity" />
         <activity android:name=".CalendarActivity" />
         <activity android:name=".WeatherActivity" />
+        <activity android:name=".ClothesFormActivity" />
+
 
     </application>
 
