@@ -7,6 +7,19 @@
     android:background="#18CEAB">
 
     <ImageButton
+        android:id="@+id/button_clothes_list_home_button"
+        android:layout_width="107dp"
+        android:layout_height="118dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_clothes_IA_button"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toEndOf="@+id/button_clothes_outfit_button"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_clothes_list_scroll"
+        app:layout_constraintVertical_bias="0.542"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
         android:id="@+id/button_clothes_outfit_button"
         android:layout_width="111dp"
         android:layout_height="117dp"
@@ -14,10 +27,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="@+id/scroll_clothes_list_scroll"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.993"
+        app:layout_constraintVertical_bias="0.981"
         app:srcCompat="@mipmap/ia_crea_outfit_foreground" />
 
     <ImageButton
@@ -28,10 +41,10 @@
         android:scaleType="fitStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/scroll_clothes_list_scroll"
-        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintHorizontal_bias="0.943"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978"
+        app:layout_constraintVertical_bias="0.968"
         app:srcCompat="@mipmap/ia_home_foreground" />
 
     <TextView

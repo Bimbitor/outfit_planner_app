@@ -7,6 +7,20 @@
     android:background="#18CEAB">
 
     <ImageButton
+        android:id="@+id/button_outfit_list_home_button"
+        android:layout_width="106dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_outfit_ia_button"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/button_outfit_clothes_button"
+        app:layout_constraintTop_toBottomOf="@+id/editTextmarcaprenda"
+        app:layout_constraintVertical_bias="0.47"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
         android:id="@+id/button_outfits_list_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,10 +41,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/scroll_outfits_list_scroll"
-        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978"
+        app:layout_constraintVertical_bias="0.98"
         app:srcCompat="@mipmap/tus_prendas_home_foreground" />
 
     <ImageButton
@@ -41,10 +55,10 @@
         android:scaleType="fitStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/scroll_outfits_list_scroll"
-        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="@+id/scroll_outfits_list_scroll"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.977"
+        app:layout_constraintVertical_bias="0.98"
         app:srcCompat="@mipmap/ia_home_foreground" />
 
     <TextView

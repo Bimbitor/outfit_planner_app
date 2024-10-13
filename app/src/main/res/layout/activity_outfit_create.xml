@@ -7,6 +7,20 @@
     android:background="#18CEAB">
 
     <ImageButton
+        android:id="@+id/button_outfit_create_home_button"
+        android:layout_width="107dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="104dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_outfit_clothes_button"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
         android:id="@+id/ic_outfit_ia_home2"
         android:layout_width="88dp"
         android:layout_height="75dp"
@@ -163,9 +177,10 @@
         android:scaleType="fitStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.99"
         app:srcCompat="@mipmap/tus_prendas_home_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
