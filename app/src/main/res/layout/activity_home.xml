@@ -7,7 +7,7 @@
     android:background="#18CEAB">
 
     <TextView
-        android:id="@+id/titulo_home"
+        android:id="@+id/text_home_title"
         android:layout_width="373dp"
         android:layout_height="136dp"
         android:autoSizeTextType="uniform"
@@ -26,27 +26,71 @@
         app:layout_optimizationLevel="graph_wrap" />
 
     <ImageButton
-        android:id="@+id/ic_calendario_home"
-        android:layout_width="341dp"
-        android:layout_height="323dp"
+        android:id="@+id/image_home_weather_button"
+        android:layout_width="181dp"
+        android:layout_height="159dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.516"
+        app:layout_constraintVertical_bias="0.426"
         app:srcCompat="@mipmap/calendario_home_foreground" />
 
     <ImageButton
-        android:id="@+id/ic_crea_outfit_home"
+        android:id="@+id/image_home_weather_button"
+        android:layout_width="181dp"
+        android:layout_height="159dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        app:srcCompat="@drawable/imagen_1" />
+
+    <TextView
+        android:id="@+id/text_home_weather_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Clima"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <TextView
+        android:id="@+id/text_home_weather_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Calendario"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <ImageButton
+        android:id="@+id/button_home_outfit_button"
         android:layout_width="106dp"
         android:layout_height="106dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ic_tus_prendas_home"
+        app:layout_constraintEnd_toStartOf="@+id/button_home_clothes_button"
         app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -54,7 +98,7 @@
         app:srcCompat="@mipmap/outfit_home_foreground" />
 
     <ImageButton
-        android:id="@+id/ic_tus_prendas_home"
+        android:id="@+id/button_home_clothes_button"
         android:layout_width="106dp"
         android:layout_height="106dp"
         android:backgroundTint="#00FFFFFF"
@@ -68,7 +112,7 @@
         app:srcCompat="@mipmap/tus_prendas_home_foreground" />
 
     <ImageButton
-        android:id="@+id/ic_outfit_ia_home"
+        android:id="@+id/button_home_IA_button"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:backgroundTint="#00FFFFFF"
@@ -80,21 +124,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.887"
         app:srcCompat="@mipmap/ia_home_foreground" />
-
-    <TextView
-        android:id="@+id/calendario_home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="Calendario"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
 
     <TextView
         android:id="@+id/outfit_ia_home"

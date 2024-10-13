@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_view_inicio"
+        android:id="@+id/text_main_text"
         android:layout_width="239dp"
         android:layout_height="177dp"
         android:fontFamily="sans-serif-black"
@@ -20,11 +20,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Iconoinicio"
+        app:layout_constraintTop_toBottomOf="@+id/image_main_logo"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/Iconoinicio"
+        android:id="@+id/image_main_logo"
         android:layout_width="274dp"
         android:layout_height="385dp"
         android:layout_marginTop="48dp"
@@ -37,7 +37,7 @@
         app:srcCompat="@drawable/logo_icono_inicio" />
 
     <Button
-        android:id="@+id/buttoninicio"
+        android:id="@+id/button_main_welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#050505"
@@ -49,7 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_inicio"
+        app:layout_constraintTop_toBottomOf="@+id/text_main_text"
         app:layout_constraintVertical_bias="0.33" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
