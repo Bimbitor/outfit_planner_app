@@ -12,7 +12,6 @@
         android:layout_height="110dp"
         android:backgroundTint="#000B0B0B"
         android:scaleType="centerInside"
-        android:tint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/scroll_outfits_list_scroll"
         app:layout_constraintHorizontal_bias="0.216"
@@ -54,9 +53,10 @@
         android:layout_width="411dp"
         android:layout_height="581dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482"
-        tools:layout_editor_absoluteX="0dp">
+        app:layout_constraintVertical_bias="0.482">
 
         <LinearLayout
             android:layout_width="match_parent"
