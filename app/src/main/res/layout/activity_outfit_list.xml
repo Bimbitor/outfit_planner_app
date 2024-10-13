@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     android:background="#18CEAB">
 
+    <ImageButton
+        android:id="@+id/button_outfit_list_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/signo_de_mas__1_" />
+
     <TextView
         android:id="@+id/text_outfit_list_title"
         android:layout_width="379dp"
@@ -25,9 +38,10 @@
         android:layout_width="416dp"
         android:layout_height="504dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709"
-        tools:layout_editor_absoluteX="-3dp">
+        app:layout_constraintVertical_bias="0.599">
 
         <LinearLayout
             android:layout_width="match_parent"
