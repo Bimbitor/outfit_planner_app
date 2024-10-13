@@ -117,6 +117,7 @@
         android:layout_height="140dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="fitCenter"
+        android:tint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

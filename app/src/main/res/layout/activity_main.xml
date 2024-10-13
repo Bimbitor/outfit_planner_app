@@ -12,6 +12,7 @@
         android:id="@+id/text_main_text"
         android:layout_width="239dp"
         android:layout_height="177dp"
+        android:autoSizeTextType="uniform"
         android:fontFamily="sans-serif-black"
         android:text="Con Outfit Planner puedes diseñar tu outfit perfecto, y lo mejor! para cualquier ocasión. "
         android:textAlignment="center"

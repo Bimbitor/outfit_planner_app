@@ -6,6 +6,34 @@
     android:layout_height="match_parent"
     android:background="#18CEAB">
 
+    <ImageButton
+        android:id="@+id/button_clothes_outfit_button"
+        android:layout_width="111dp"
+        android:layout_height="117dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="@+id/scroll_clothes_list_scroll"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993"
+        app:srcCompat="@mipmap/ia_crea_outfit_foreground" />
+
+    <ImageButton
+        android:id="@+id/button_clothes_IA_button"
+        android:layout_width="112dp"
+        android:layout_height="96dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/scroll_clothes_list_scroll"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978"
+        app:srcCompat="@mipmap/ia_home_foreground" />
+
     <TextView
         android:id="@+id/text_clothes_list_title"
         android:layout_width="wrap_content"
@@ -38,8 +66,9 @@
         android:id="@+id/scroll_clothes_list_scroll"
         android:layout_width="418dp"
         android:layout_height="585dp"
+        android:layout_marginBottom="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="1dp">
+        tools:layout_editor_absoluteX="-4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
